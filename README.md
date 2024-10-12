@@ -33,11 +33,12 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://i.imgur.com/SCh1Xfp.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/SCh1Xfp.gif' title='Video Walkthrough' alt='Video Walkthrough' />
 https://imgur.com/a/9U759bR
+https://i.imgur.com/SCh1Xfp.gif
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  GIF tool here
+GIF created with ...  EZGif
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
