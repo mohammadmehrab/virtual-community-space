@@ -28,4 +28,23 @@ const getEventById = async (req, res) => {
     }
 }
 
-export {getEvents, getEventById}
+const getEventByLocationId = async (req, res) => {
+    try {
+        const selectQuery = `
+            SELECT *
+            FROM events
+            WHERE location=$1
+        `
+
+        const locationId = req.params.locationId
+
+        const results = await pool.query(selectQuery, [locationId])
+
+        res.status(200).json(results.rows)
+
+    } catch(error) {
+        res.status(409).json( {error: error.message})
+    }
+}
+
+export {getEvents, getEventById, getEventByLocationId}

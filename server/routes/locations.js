@@ -1,6 +1,5 @@
 import express from 'express'
 // import controllers for events and locations
-import {getEvents, getEventById} from '../controllers/events.js'
 import {getLocations, getLocationById} from '../controllers/locations.js'
 
 

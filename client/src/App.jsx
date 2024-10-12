@@ -12,25 +12,25 @@ const App = () => {
       element: <Locations />
     },
     {
-      path: '/echolounge',
+      path: '/echoplaza',
       element: <LocationEvents index={1} />
     },
     {
-      path: '/houseofblues',
+      path: '/harmonyhall',
       element: <LocationEvents index={2} />
     },
     {
-      path: '/pavilion',
+      path: '/thesoundgarden',
       element: <LocationEvents index={3} />
     },
     {
-      path: '/americanairlines',
+      path: '/melodypark',
       element: <LocationEvents index={4} />
     },
     {
-      path: '/events',
-      element: <Events />
-    }
+      path: '/eventlist',
+      element: <LocationEvents index={0} />
+    },
   ])
 
   return (
@@ -41,7 +41,7 @@ const App = () => {
 
         <div className='header-buttons'>
           <Link to='/' role='button'>Home</Link>
-          <Link to='/events' role='button'>Events</Link>
+          <Link to='/eventlist' role='button'>Events</Link>
         </div>
       </header>
 

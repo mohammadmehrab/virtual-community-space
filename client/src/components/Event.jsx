@@ -1,19 +1,23 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import '../css/Event.css'
+import EventsAPI from '../services/EventsAPI'
+import { dates } from '../services/dates'
 
 const Event = (props) => {
 
     const [event, setEvent] = useState([])
     const [time, setTime] = useState([])
     const [remaining, setRemaining] = useState([])
+    // const [countdownRef, setCountdownRef] = useRef(null)
 
     useEffect(() => {
         (async () => {
             try {
-                const eventData = await EventsAPI.getEventsById(props.id)
+                const eventData = await EventsAPI.getEventById(props.id)
                 setEvent(eventData)
             }
             catch (error) {
+                console.log(error)
                 throw error
             }
         }) ()
@@ -22,7 +26,7 @@ const Event = (props) => {
     useEffect(() => {
         (async () => {
             try {
-                const result = await dates.formatTime(event.time)
+                const result = dates.formatTime(event.datetime)
                 setTime(result)
             }
             catch (error) {
@@ -34,7 +38,7 @@ const Event = (props) => {
     useEffect(() => {
         (async () => {
             try {
-                const timeRemaining = await dates.formatRemainingTime(event.remaining)
+                const timeRemaining = dates.formatRemainingTime(event.datetime)
                 setRemaining(timeRemaining)
                 dates.formatNegativeTimeRemaining(remaining, event.id)
             }
@@ -50,9 +54,13 @@ const Event = (props) => {
 
             <div className='event-information-overlay'>
                 <div className='text'>
-                    <h3>{event.title}</h3>
-                    <p><i className="fa-regular fa-calendar fa-bounce"></i> {event.date} <br /> {time}</p>
-                    <p id={`remaining-${event.id}`}>{remaining}</p>
+                    <h3>{event.name}</h3>
+                    <p><i className="fa-regular fa-calendar fa-bounce"> {dates.formatDate(event.datetime)}</i> <br /> {time}</p>
+                    {
+                        dates.getTimeDifference(event.datetime) > 0 ?
+                        <p id={`remaining-${event.id}`}>{remaining}</p> 
+                        : <p>Event has already passed!</p>
+                    }
                 </div>
             </div>
         </article>

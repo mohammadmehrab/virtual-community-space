@@ -8,8 +8,13 @@ async function getAllLocations() {
 }
 
 async function getLocationById(id) {
-    const response = await fetch(`/location/${id}`)
+    const response = await fetch(`/locations/${id}`)
     const data = await response.json()
 
     return data
+}
+
+export default {
+    getAllLocations,
+    getLocationById
 }

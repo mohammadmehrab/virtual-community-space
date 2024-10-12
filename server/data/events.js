@@ -3,7 +3,7 @@ const eventData = [
   {
     id: 1,
     name: "Echoes of the Night - The Weeknd",
-    datetime: "2024-10-15 20:00:00",
+    datetime: "2024-10-10 20:00:00",
     image: "https://upload.wikimedia.org/wikipedia/commons/9/95/The_Weeknd_Cannes_2023.png",
     location: 1
   },
@@ -115,258 +115,258 @@ const eventData = [
     id: 16,
     name: "Melodies in the Park - Taylor Swift",
     datetime: "2024-10-30 17:00:00",
-    image: "https://example.com/images/taylor-swift.jpg",
+    image: "https://thehill.com/wp-content/uploads/sites/2/2024/09/swift_taylor_02052023_AP_AP24255597121648.jpg?strip=1",
     location: 4
   },
   {
     id: 17,
     name: "Country Night - Luke Bryan",
     datetime: "2024-10-31 19:30:00",
-    image: "https://example.com/images/luke-bryan.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk1yCdhVX4EKW4l-leOmsNpVGj9XrjU2MqIQ&s",
     location: 4
   },
   {
     id: 18,
     name: "Pop Rock Party - Paramore",
     datetime: "2024-11-01 20:00:00",
-    image: "https://example.com/images/paramore.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2a5cK7BxkDBuEzanCazCzHsuGLFXNSqXc2g&s",
     location: 4
   },
   {
     id: 19,
     name: "Reggae Vibes - Bob Marley Tribute",
     datetime: "2024-11-02 19:00:00",
-    image: "https://example.com/images/bob-marley.jpg",
+    image: "https://i.scdn.co/image/ab67616d0000b2738c1241ef71ad20c93e35f646",
     location: 4
   },
   {
     id: 20,
     name: "Classic Rock Night - The Rolling Stones",
     datetime: "2024-11-03 21:00:00",
-    image: "https://example.com/images/rolling-stones.jpg",
+    image: "https://cdn.britannica.com/41/197341-004-97D2C09A/The-Rolling-Stones-Bill-Wyman-Keith-Richards-1964.jpg",
     location: 4
   },
 
-  // Events for Rhythm Rooftop
-  {
-    id: 21,
-    name: "Rhythms Under the Stars - Bruno Mars",
-    datetime: "2024-11-04 21:00:00",
-    image: "https://example.com/images/bruno-mars.jpg",
-    location: 5
-  },
-  {
-    id: 22,
-    name: "Soul Night - Alicia Keys",
-    datetime: "2024-11-05 20:00:00",
-    image: "https://example.com/images/alicia-keys.jpg",
-    location: 5
-  },
-  {
-    id: 23,
-    name: "Funky Friday - Lizzo",
-    datetime: "2024-11-06 19:00:00",
-    image: "https://example.com/images/lizzo.jpg",
-    location: 5
-  },
-  {
-    id: 24,
-    name: "Retro Revival - Madonna",
-    datetime: "2024-11-07 22:00:00",
-    image: "https://example.com/images/madonna.jpg",
-    location: 5
-  },
-  {
-    id: 25,
-    name: "Night of the Hits - Usher",
-    datetime: "2024-11-08 20:30:00",
-    image: "https://example.com/images/usher.jpg",
-    location: 5
-  },
+  // // Events for Rhythm Rooftop
+  // {
+  //   id: 21,
+  //   name: "Rhythms Under the Stars - Bruno Mars",
+  //   datetime: "2024-11-04 21:00:00",
+  //   image: "https://example.com/images/bruno-mars.jpg",
+  //   location: 5
+  // },
+  // {
+  //   id: 22,
+  //   name: "Soul Night - Alicia Keys",
+  //   datetime: "2024-11-05 20:00:00",
+  //   image: "https://example.com/images/alicia-keys.jpg",
+  //   location: 5
+  // },
+  // {
+  //   id: 23,
+  //   name: "Funky Friday - Lizzo",
+  //   datetime: "2024-11-06 19:00:00",
+  //   image: "https://example.com/images/lizzo.jpg",
+  //   location: 5
+  // },
+  // {
+  //   id: 24,
+  //   name: "Retro Revival - Madonna",
+  //   datetime: "2024-11-07 22:00:00",
+  //   image: "https://example.com/images/madonna.jpg",
+  //   location: 5
+  // },
+  // {
+  //   id: 25,
+  //   name: "Night of the Hits - Usher",
+  //   datetime: "2024-11-08 20:30:00",
+  //   image: "https://example.com/images/usher.jpg",
+  //   location: 5
+  // },
 
-  // Events for Bassline Arena
-  {
-    id: 26,
-    name: "Bassline Beats - Dua Lipa",
-    datetime: "2024-11-09 19:00:00",
-    image: "https://example.com/images/dua-lipa.jpg",
-    location: 6
-  },
-  {
-    id: 27,
-    name: "Electro Night - Calvin Harris",
-    datetime: "2024-11-10 20:30:00",
-    image: "https://example.com/images/calvin-harris.jpg",
-    location: 6
-  },
-  {
-    id: 28,
-    name: "House Party - David Guetta",
-    datetime: "2024-11-11 19:45:00",
-    image: "https://example.com/images/david-guetta.jpg",
-    location: 6
-  },
-  {
-    id: 29,
-    name: "Rave Night - Marshmello",
-    datetime: "2024-11-12 22:00:00",
-    image: "https://example.com/images/marshmello.jpg",
-    location: 6
-  },
-  {
-    id: 30,
-    name: "Festival of Lights - Zedd",
-    datetime: "2024-11-13 20:00:00",
-    image: "https://example.com/images/zedd.jpg",
-    location: 6
-  },
+  // // Events for Bassline Arena
+  // {
+  //   id: 26,
+  //   name: "Bassline Beats - Dua Lipa",
+  //   datetime: "2024-11-09 19:00:00",
+  //   image: "https://example.com/images/dua-lipa.jpg",
+  //   location: 6
+  // },
+  // {
+  //   id: 27,
+  //   name: "Electro Night - Calvin Harris",
+  //   datetime: "2024-11-10 20:30:00",
+  //   image: "https://example.com/images/calvin-harris.jpg",
+  //   location: 6
+  // },
+  // {
+  //   id: 28,
+  //   name: "House Party - David Guetta",
+  //   datetime: "2024-11-11 19:45:00",
+  //   image: "https://example.com/images/david-guetta.jpg",
+  //   location: 6
+  // },
+  // {
+  //   id: 29,
+  //   name: "Rave Night - Marshmello",
+  //   datetime: "2024-11-12 22:00:00",
+  //   image: "https://example.com/images/marshmello.jpg",
+  //   location: 6
+  // },
+  // {
+  //   id: 30,
+  //   name: "Festival of Lights - Zedd",
+  //   datetime: "2024-11-13 20:00:00",
+  //   image: "https://example.com/images/zedd.jpg",
+  //   location: 6
+  // },
 
-  // Events for Treble Stage
-  {
-    id: 31,
-    name: "Treble Tunes - Ed Sheeran",
-    datetime: "2024-11-14 20:00:00",
-    image: "https://example.com/images/ed-sheeran.jpg",
-    location: 7
-  },
-  {
-    id: 32,
-    name: "Rock & Roll Night - Green Day",
-    datetime: "2024-11-15 21:00:00",
-    image: "https://example.com/images/green-day.jpg",
-    location: 7
-  },
-  {
-    id: 33,
-    name: "Acoustic Bliss - Jack Johnson",
-    datetime: "2024-11-16 18:30:00",
-    image: "https://example.com/images/jack-johnson.jpg",
-    location: 7
-  },
-  {
-    id: 34,
-    name: "Pop Extravaganza - Katy Perry",
-    datetime: "2024-11-17 19:00:00",
-    image: "https://example.com/images/katy-perry.jpg",
-    location: 7
-  },
-  {
-    id: 35,
-    name: "Indie Fiesta - Florence + The Machine",
-    datetime: "2024-11-18 20:00:00",
-    image: "https://example.com/images/florence-machine.jpg",
-    location: 7
-  },
+  // // Events for Treble Stage
+  // {
+  //   id: 31,
+  //   name: "Treble Tunes - Ed Sheeran",
+  //   datetime: "2024-11-14 20:00:00",
+  //   image: "https://example.com/images/ed-sheeran.jpg",
+  //   location: 7
+  // },
+  // {
+  //   id: 32,
+  //   name: "Rock & Roll Night - Green Day",
+  //   datetime: "2024-11-15 21:00:00",
+  //   image: "https://example.com/images/green-day.jpg",
+  //   location: 7
+  // },
+  // {
+  //   id: 33,
+  //   name: "Acoustic Bliss - Jack Johnson",
+  //   datetime: "2024-11-16 18:30:00",
+  //   image: "https://example.com/images/jack-johnson.jpg",
+  //   location: 7
+  // },
+  // {
+  //   id: 34,
+  //   name: "Pop Extravaganza - Katy Perry",
+  //   datetime: "2024-11-17 19:00:00",
+  //   image: "https://example.com/images/katy-perry.jpg",
+  //   location: 7
+  // },
+  // {
+  //   id: 35,
+  //   name: "Indie Fiesta - Florence + The Machine",
+  //   datetime: "2024-11-18 20:00:00",
+  //   image: "https://example.com/images/florence-machine.jpg",
+  //   location: 7
+  // },
 
-  // Events for Acoustic Corner
-  {
-    id: 36,
-    name: "Acoustic Vibes - John Mayer",
-    datetime: "2024-11-19 18:00:00",
-    image: "https://example.com/images/john-mayer.jpg",
-    location: 8
-  },
-  {
-    id: 37,
-    name: "Singer-Songwriter Night - Sarah Bareilles",
-    datetime: "2024-11-20 20:30:00",
-    image: "https://example.com/images/sarah-bareilles.jpg",
-    location: 8
-  },
-  {
-    id: 38,
-    name: "Piano Serenades - Alicia Keys",
-    datetime: "2024-11-21 19:00:00",
-    image: "https://example.com/images/alicia-keys.jpg",
-    location: 8
-  },
-  {
-    id: 39,
-    name: "Guitar Melodies - Jason Isbell",
-    datetime: "2024-11-22 18:30:00",
-    image: "https://example.com/images/jason-isbell.jpg",
-    location: 8
-  },  {
-    id: 40,
-    name: "Evening Chords - Brandi Carlile",
-    datetime: "2024-11-23 20:00:00",
-    image: "https://example.com/images/brandi-carlile.jpg",
-    location: 8
-  },
+  // // Events for Acoustic Corner
+  // {
+  //   id: 36,
+  //   name: "Acoustic Vibes - John Mayer",
+  //   datetime: "2024-11-19 18:00:00",
+  //   image: "https://example.com/images/john-mayer.jpg",
+  //   location: 8
+  // },
+  // {
+  //   id: 37,
+  //   name: "Singer-Songwriter Night - Sarah Bareilles",
+  //   datetime: "2024-11-20 20:30:00",
+  //   image: "https://example.com/images/sarah-bareilles.jpg",
+  //   location: 8
+  // },
+  // {
+  //   id: 38,
+  //   name: "Piano Serenades - Alicia Keys",
+  //   datetime: "2024-11-21 19:00:00",
+  //   image: "https://example.com/images/alicia-keys.jpg",
+  //   location: 8
+  // },
+  // {
+  //   id: 39,
+  //   name: "Guitar Melodies - Jason Isbell",
+  //   datetime: "2024-11-22 18:30:00",
+  //   image: "https://example.com/images/jason-isbell.jpg",
+  //   location: 8
+  // },  {
+  //   id: 40,
+  //   name: "Evening Chords - Brandi Carlile",
+  //   datetime: "2024-11-23 20:00:00",
+  //   image: "https://example.com/images/brandi-carlile.jpg",
+  //   location: 8
+  // },
 
-  // Events for Soulful Stage
-  {
-    id: 41,
-    name: "Vibrato Nights - Alicia Keys",
-    datetime: "2024-11-24 19:00:00",
-    image: "https://example.com/images/alicia-keys.jpg",
-    location: 9
-  },
-  {
-    id: 42,
-    name: "Classic Soul - Aretha Franklin Tribute",
-    datetime: "2024-11-25 20:00:00",
-    image: "https://example.com/images/aretha-franklin.jpg",
-    location: 9
-  },
-  {
-    id: 43,
-    name: "Neo-Soul Evening - Erykah Badu",
-    datetime: "2024-11-26 18:30:00",
-    image: "https://example.com/images/erykah-badu.jpg",
-    location: 9
-  },
-  {
-    id: 44,
-    name: "R&B Revival - Usher",
-    datetime: "2024-11-27 21:00:00",
-    image: "https://example.com/images/usher.jpg",
-    location: 9
-  },
-  {
-    id: 45,
-    name: "Smooth Jazz Night - Norah Jones",
-    datetime: "2024-11-28 19:00:00",
-    image: "https://example.com/images/norah-jones.jpg",
-    location: 9
-  },
+  // // Events for Soulful Stage
+  // {
+  //   id: 41,
+  //   name: "Vibrato Nights - Alicia Keys",
+  //   datetime: "2024-11-24 19:00:00",
+  //   image: "https://example.com/images/alicia-keys.jpg",
+  //   location: 9
+  // },
+  // {
+  //   id: 42,
+  //   name: "Classic Soul - Aretha Franklin Tribute",
+  //   datetime: "2024-11-25 20:00:00",
+  //   image: "https://example.com/images/aretha-franklin.jpg",
+  //   location: 9
+  // },
+  // {
+  //   id: 43,
+  //   name: "Neo-Soul Evening - Erykah Badu",
+  //   datetime: "2024-11-26 18:30:00",
+  //   image: "https://example.com/images/erykah-badu.jpg",
+  //   location: 9
+  // },
+  // {
+  //   id: 44,
+  //   name: "R&B Revival - Usher",
+  //   datetime: "2024-11-27 21:00:00",
+  //   image: "https://example.com/images/usher.jpg",
+  //   location: 9
+  // },
+  // {
+  //   id: 45,
+  //   name: "Smooth Jazz Night - Norah Jones",
+  //   datetime: "2024-11-28 19:00:00",
+  //   image: "https://example.com/images/norah-jones.jpg",
+  //   location: 9
+  // },
 
-  // Events for Festival Field
-  {
-    id: 46,
-    name: "Rhythmic Fusion - Khalid",
-    datetime: "2024-11-29 20:00:00",
-    image: "https://example.com/images/khalid.jpg",
-    location: 10
-  },
-  {
-    id: 47,
-    name: "Rock the Field - Imagine Dragons",
-    datetime: "2024-11-30 21:00:00",
-    image: "https://example.com/images/imagine-dragons.jpg",
-    location: 10
-  },
-  {
-    id: 48,
-    name: "Hip Hop Festival - Travis Scott",
-    datetime: "2024-12-01 19:30:00",
-    image: "https://example.com/images/travis-scott.jpg",
-    location: 10
-  },
-  {
-    id: 49,
-    name: "Music Under the Stars - Coldplay",
-    datetime: "2024-12-02 20:00:00",
-    image: "https://example.com/images/coldplay.jpg",
-    location: 10
-  },
-  {
-    id: 50,
-    name: "Global Beats - DJ Snake",
-    datetime: "2024-12-03 22:00:00",
-    image: "https://example.com/images/dj-snake.jpg",
-    location: 10
-  }
+  // // Events for Festival Field
+  // {
+  //   id: 46,
+  //   name: "Rhythmic Fusion - Khalid",
+  //   datetime: "2024-11-29 20:00:00",
+  //   image: "https://example.com/images/khalid.jpg",
+  //   location: 10
+  // },
+  // {
+  //   id: 47,
+  //   name: "Rock the Field - Imagine Dragons",
+  //   datetime: "2024-11-30 21:00:00",
+  //   image: "https://example.com/images/imagine-dragons.jpg",
+  //   location: 10
+  // },
+  // {
+  //   id: 48,
+  //   name: "Hip Hop Festival - Travis Scott",
+  //   datetime: "2024-12-01 19:30:00",
+  //   image: "https://example.com/images/travis-scott.jpg",
+  //   location: 10
+  // },
+  // {
+  //   id: 49,
+  //   name: "Music Under the Stars - Coldplay",
+  //   datetime: "2024-12-02 20:00:00",
+  //   image: "https://example.com/images/coldplay.jpg",
+  //   location: 10
+  // },
+  // {
+  //   id: 50,
+  //   name: "Global Beats - DJ Snake",
+  //   datetime: "2024-12-03 22:00:00",
+  //   image: "https://example.com/images/dj-snake.jpg",
+  //   location: 10
+  // }
 ];
 
 export default eventData;

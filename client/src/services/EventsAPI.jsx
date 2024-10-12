@@ -5,9 +5,22 @@ async function getAllEvents() {
     return data
 }
 
-async function getEventById(id) {
-    const response = await fetch(`/event/${id}`)
+async function getEventById(eventId) {
+    const response = await fetch(`/events/${eventId}`)
     const data = await response.json()
 
     return data
+}
+
+async function getEventByLocationId(locationId) {
+    const response = await fetch(`/events/location/${locationId}`)
+    const data = await response.json()
+
+    return data
+}
+
+export default {
+    getAllEvents,
+    getEventById,
+    getEventByLocationId
 }
